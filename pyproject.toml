@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "hackernews"
+version = "0.1.0"
+description = ""
+authors = ["Kiran Kumbhar <kiranpk189@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Django = "^3.1.2"
+graphene-django = "^2.13.0"
+django-filter = "^2.4.0"
+django-graphql-jwt = "^0.3.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = {version = "^20.8b1", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
